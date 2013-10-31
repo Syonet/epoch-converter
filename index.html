@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title> Conversor de Data </title>
+	</head>
+	
+	<link rel="stylesheet" href="css/bootstrap.light.css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/dateLib.js"></script>
+	<script src="js/conversor.js"></script>
+	
+	<body style="padding-top: 15px;">
+		<div class="container">
+			<span>
+				<h2> Conversor de data </h2>
+			</span>
+			<form class="form-horizontal well">
+				<div class="control-group">
+					<label class="control-label" for="mask">
+						Máscara:
+					</label>
+
+					<div class="controls">
+						<input id="mask" type="text" class="input-xlarge"
+						value="dd/MM/yyyy HH:mm:ss" />		
+				    </div>
+				</div>
+
+				<div class="control-group">
+					<label class="control-label" for="spacer">
+						Separador:
+					</label>
+					<div class="controls">
+						<input id="spacer" type="text" class="input-xlarge"
+						value="\n" />
+					</div>
+				</div>
+				
+				<div class="control-group">
+					<label class="control-label" for="textarea">
+						Dados para converter:
+						</label>
+					<div class="controls">
+					<textarea style="width: 90%; height: 70px;"
+						id="data"></textarea>
+					</div>
+			 	</div>
+				
+				<div class="form-actions" style="text-align: right">
+					<button type="button" class="btn btn-primary" id="go">
+						Converter
+					</button>
+				</div>
+			</form>
+			<div class="alert alert-info" style="height: 155px;">
+				<div id="result" style="height: 150px; overflow: auto;">
+					 Resultado...
+				</div>
+			</div>			
+		</div>
+	</body>
+</html>

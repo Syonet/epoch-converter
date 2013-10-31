@@ -53,8 +53,8 @@
 				fnConvert.setContainerResultSuccess( $result.parent() );
 			}
 
-			if ( !$result.val() ) {
-				$result.parent().addClass( "alert-success" );
+			if ( !data ) {
+				fnConvert.setContainerResultFail( $result.parent() );
 			}	
 
 		},

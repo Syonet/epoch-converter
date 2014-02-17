@@ -1,18 +1,17 @@
+<H3>Conversor de Data</H3>
 
-<H2>Conversor de Data</H2>
+<H4> Intro: </H4>
+A partir de uma data obtenha o valor em long e de long para string.
 
-<H3> Sobre </H3>
-Simples conversor de data para timestamp e timestamp para data.
-
-<H3> Features </H3>
-* Apartir de uma data obter timestamp;
-* Apartir de um timestamp obter a data;
+<H4>Features: </H4>
+* Apartir de uma data obter valor em long;
+* Apartir de um valor long obter a data;
 * Converter mais de um registro e misturados;
 * Definir o tipo de separador ( espaço, nova linha, hífen e etc );
 * Possibilidade de definir a máscara;
 
 
-<H3>  Definições das Máscaras: </H3>
+<H4>  Definições das Máscaras: </H4>
 <table>
 <thead>
 	<tr>
@@ -57,7 +56,7 @@ Simples conversor de data para timestamp e timestamp para data.
 </tbody>
 </table>
 
-<H3> Demo </H3>
+<H4> Demo: </H4>
 Para testar utilize os valores na tool:
 
 >1370430003792
@@ -68,11 +67,4 @@ Para testar utilize os valores na tool:
 >
 >21/07/20004 14:30:00
 
-<h3> link </h3>
-http://joaoscotto.github.io/ConversorData/
-
-<h3> Libs usadas: </h3>
-http://www.javascripttoolbox.com/lib/date/
-
-http://jquery.com
-
+<H5> http://joaoscotto.github.io/ConversorData/ </H5>

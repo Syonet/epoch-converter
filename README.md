@@ -1,14 +1,12 @@
 <H3>Conversor de Data</H3>
 
-<H4> Intro: </H4>
-A partir de uma data obtenha o valor em long e de long para string.
+Converta valores em timestamp para datas legíveis e vice versa.	
 
 <H4>Features: </H4>
-* Apartir de uma data obter valor em long;
-* Apartir de um valor long obter a data;
-* Converter mais de um registro e misturados;
-* Definir o tipo de separador ( espaço, nova linha, hífen e etc );
-* Possibilidade de definir a máscara;
+* Utilize uma data formatada de acordo com a máscara definida para obter seu valor em timestamp;
+* Utilize um  valor em timestamp para obter sua data legível de acordo com a máscara;
+* Converta mais de um registro de qualquer tipo ( timestamp ou data string );
+* Defina o tipo de separador para os registros ( espaço, nova linha, hífen e etc. );
 
 
 <H4>  Definições das Máscaras: </H4>
@@ -57,7 +55,7 @@ A partir de uma data obtenha o valor em long e de long para string.
 </table>
 
 <H4> Demo: </H4>
-Para testar utilize os valores na tool:
+Para realizar testes e aprender como utilizar a ferramenta, utilize os valores abaixo com a máscara default:
 
 >1370430003792
 >
@@ -67,4 +65,3 @@ Para testar utilize os valores na tool:
 >
 >21/07/20004 14:30:00
 
-<H5> http://joaoscotto.github.io/ConversorData/ </H5>

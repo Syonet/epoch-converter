@@ -7,6 +7,8 @@ Converta valores em timestamp para datas legíveis e vice versa.
 * Converta mais de um registro de qualquer tipo ( timestamp ou data string );
 * Defina o tipo de separador para os registros ( espaço, nova linha, hífen e etc. );
 
+
+<H4> Testes: </H4>
 Para realizar testes e aprender como utilizar a ferramenta use os valores abaixo com a máscara e separador default:
 
 >1370430003792 <br>

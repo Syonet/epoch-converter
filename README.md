@@ -2,12 +2,18 @@
 
 Converta valores em timestamp para datas legíveis e vice versa.	
 
-<H4>Features: </H4>
 * Utilize uma data formatada de acordo com a máscara definida para obter seu valor em timestamp;
 * Utilize um  valor em timestamp para obter sua data legível de acordo com a máscara;
 * Converta mais de um registro de qualquer tipo ( timestamp ou data string );
 * Defina o tipo de separador para os registros ( espaço, nova linha, hífen e etc. );
 
+Para realizar testes e aprender como utilizar a ferramenta use os valores abaixo com a máscara e separador default:
+
+>1370430003792 <br>
+>1351936804798 <br>
+>12/12/2013 00:00:01 <br>
+>21/07/2014 14:30:00 <br>
+ 
 
 <H4>  Definições das Máscaras: </H4>
 <table>
@@ -54,14 +60,4 @@ Converta valores em timestamp para datas legíveis e vice versa.
 </tbody>
 </table>
 
-<H4> Demo: </H4>
-Para realizar testes e aprender como utilizar a ferramenta, utilize os valores abaixo com a máscara default:
-
->1370430003792
->
->1351936804798
->
->12/12/20013 00:00:01
->
->21/07/20004 14:30:00
 

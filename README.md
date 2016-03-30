@@ -1,8 +1,6 @@
+### Epoch Conversion Tools
 
 `It work, but the code is deprecated.`
-
-
-### Epoch Conversion Tools
 
 Convert `Unix timestamp` to readable date or readable date to `Unix timestamp`.
 

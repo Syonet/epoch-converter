@@ -4,9 +4,10 @@
 
 ### Epoch Conversion Tools
 
-Convert epoch (or Unix time or POSIX time or Unix timestamp) to human readable date and vice versa.
+Convert `Unix timestamp` to readable date or readable date to `Unix timestamp`.
 
-### Masks:
+
+### Masks
 <table>
 <thead>
 	<tr>

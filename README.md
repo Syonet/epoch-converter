@@ -1,6 +1,6 @@
-<H3>Conversor de Data</H3>
+### Epoch Conversion Tools
 
-Converta valores em timestamp para datas legíveis e vice versa.	
+Convert epoch (or Unix time or POSIX time or Unix timestamp) to human readable date and vice versa.
 
 * Utilize uma data formatada de acordo com a máscara definida para obter seu valor em timestamp;
 * Utilize um  valor em timestamp para obter sua data legível de acordo com a máscara;
@@ -8,16 +8,9 @@ Converta valores em timestamp para datas legíveis e vice versa.
 * Defina o tipo de separador para os registros ( espaço, nova linha, hífen e etc. );
 
 
-<H4> Testes: </H4>
-Para realizar testes e aprender como utilizar a ferramenta use os valores abaixo com a máscara e separador default:
-
->1370430003792 <br>
->1351936804798 <br>
->12/12/2013 00:00:01 <br>
->21/07/2014 14:30:00 <br>
  
 
-<H4>  Definições das Máscaras: </H4>
+### Masks:
 <table>
 <thead>
 	<tr>

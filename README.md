@@ -1,14 +1,10 @@
+
+`It work, but the code is deprecated.`
+
+
 ### Epoch Conversion Tools
 
 Convert epoch (or Unix time or POSIX time or Unix timestamp) to human readable date and vice versa.
-
-* Utilize uma data formatada de acordo com a máscara definida para obter seu valor em timestamp;
-* Utilize um  valor em timestamp para obter sua data legível de acordo com a máscara;
-* Converta mais de um registro de qualquer tipo ( timestamp ou data string );
-* Defina o tipo de separador para os registros ( espaço, nova linha, hífen e etc. );
-
-
- 
 
 ### Masks:
 <table>
